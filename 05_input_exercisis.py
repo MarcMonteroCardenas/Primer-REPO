@@ -18,7 +18,6 @@ print(f"el tecnic es diu {nom_tecnic} i la xarxa es diu {nom_xarxa}")
 # Suposa que 1 GB = 8 Gb i que la velocitat es manté constant.
 longitud_fibra  = float(input("quina es la longitud de la fibra: "))
 velocitat_fibra = float(input("quina es la velociata en Gbps: "))
-
 temps = (8 / velocitat_fibra) * longitud_fibra 
 print(f"El temps necessari per transmetre 1 GB de dades és de {temps} ms.")
 
