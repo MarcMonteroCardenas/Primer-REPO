@@ -8,6 +8,7 @@
 # - Entre -67 dBm i menys de -50 dBm: bona
 # - Entre -75 dBm i menys de -67 dBm: feble
 # - Inferior a -75 dBm: molt feble
+
 wifi = input("Introdueix el nivell de senyal Wi-Fi en dBm: ")
 if (wifi >= "-50"):
     print("La cobertura Wi-Fi és excel·lent.")
@@ -34,6 +35,7 @@ else:
 # Demana el consum de dades en GB d'una línia mòbil. El pla inclou 20 GB.
 # Indica si el consum és dins del límit o si l'ha superat; en aquest últim cas,
 # calcula quants GB addicionals s'han consumit.
+
 consum = float(input("Introdueix el consum de dades en GB: "))
 if (consum <= 20):
     print("El consum és dins del límit.")
@@ -45,6 +47,7 @@ else:
 # d'Internet del router està encès. Segons aquestes dues dades, indica si cal
 # revisar el cable de fibra, comprovar el servei del proveïdor o si la connexió
 # sembla funcionar correctament.
+
 los = input("Encés?: (si/no) ")
 internet = input("Encés?: (si/no) ")
 if (los == "si" and internet == "si"):
